@@ -1,0 +1,14 @@
+﻿IMPORTANT: MISSING MODEL FILE
+The pre-trained model weights file (colorization_release_v2.caffemodel) is too large (129MB) to be hosted directly on GitHub.
+You MUST download it manually for this application to work.
+DOWNLOAD INSTRUCTIONS:
+1. Download the file from this direct link:
+https://www.dropbox.com/s/dx0qvhhp5hbcx7z/colorization_release_v2.caffemodel?dl=1
+2. Place the downloaded file into this model/ folder.
+Your model/ folder should eventually contain these 3 files:
+   * colorization_deploy_v2.prototxt (Already here)
+   * pts_in_hull.npy (Already here)
+   * colorization_release_v2.caffemodel (You download this)
+Reference:
+These weights are from the original research by Richard Zhang et al. (ECCV 2016).
+Original Repo: https://github.com/richzhang/colorization
