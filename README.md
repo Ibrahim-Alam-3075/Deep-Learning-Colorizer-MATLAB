@@ -112,9 +112,9 @@ DIP\_Project/
 ├── ColorizerApp.m      \# Main MATLAB GUI source code  
 ├── backend.py          \# Python script for model inference  
 ├── model/              \# Folder containing AI weights (Download separately)  
- │   ├── colorization\_release\_v2.caffemodel  
- │   ├── colorization\_deploy\_v2.prototxt  
- │   └── pts\_in\_hull.npy  
+│  ├── colorization\_release\_v2.caffemodel  
+│  ├── colorization\_deploy\_v2.prototxt  
+│  └── pts\_in\_hull.npy  
 └── README.md           \# This documentation file
 
 ## **📜 References**
