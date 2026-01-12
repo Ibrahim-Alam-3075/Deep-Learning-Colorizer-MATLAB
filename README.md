@@ -83,15 +83,17 @@ pythonExe \= '/Users/yourname/Desktop/DIP/venv/bin/python';
 % Example for Windows  
 % pythonExe \= 'C:\\Users\\yourname\\Desktop\\DIP\\venv\\Scripts\\python.exe';
 
-### **3\. Download Model Weights**
+## **⚠️ CRITICAL: Missing Model Weights**
 
-Due to GitHub file size limits, the pre-trained weights are not included.
+Due to GitHub's file size limits, the pre-trained weights file (**129MB**) is **NOT** included in this repository. The application will fail to run without it.
 
-1. Create a folder named model/ in the root directory.  
-2. Download and place the following files inside:  
-   * [colorization\_release\_v2.caffemodel](https://www.dropbox.com/s/dx0qvhhp5hbcx7z/colorization_release_v2.caffemodel?dl=1)  
-   * colorization\_deploy\_v2.prototxt  
-   * pts\_in\_hull.npy
+### **How to Fix:**
+
+1. Download the weights file here: [**colorization\_release\_v2.caffemodel**](https://www.dropbox.com/s/dx0qvhhp5hbcx7z/colorization_release_v2.caffemodel?dl=1)  
+2. Create a folder named model/ in your local project directory.  
+3. Move the downloaded .caffemodel file into that model/ folder.  
+4. Ensure the model/ folder also contains colorization\_deploy\_v2.prototxt and pts\_in\_hull.npy.
+
 
 ## **🚀 How to Run**
 
